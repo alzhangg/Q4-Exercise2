@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Arithmetic Operators</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+		<style type="text/css">
+
+	         body {
+	            background-image: url("https://i.imgur.com/TvyzpAG.png");
+	            font-size: 16px;
+	            font-family: 'Courier Prime', monospace;
+	         }
+
+	         h1 {
+	            font-size: 20px;
+	            color: #ddc469;
+	            font-family: monospace;
+	         }
+
+	         hr {
+	            margin:10px
+	        }
+
+	         .page {
+	            border: 1px solid #bdbdbd;
+	            padding: 45px;
+	            border-radius:.50rem!important;
+	            margin-top: 45px;
+	            margin-bottom: 45px;
+	            width: 70%;
+	         }
+
+	     </style>
+
+</head>
+<body>
+	<div class="page container" style="background-color:#ffffff">
+
+		<h1><span>Javascript Arithmetic Operators</span></h1>
+
+		<hr>
+
+		<p><mark>a = 2, b = 4;</mark></p>
+
+		<hr>
+
+		<ol type="1.">
+
+		<li>a + b = <strong id="p1"></strong></li>
+		<li>b - a = <strong id="p2"></strong></li>
+		<li>a * b = <strong id="p3"></strong></li>
+		<li>b / a = <strong id="p4"></strong></li>
+		<li>a % 2 = <strong id="p5"></strong></li>
+
+		</ol>
+
+		<script>
+
+			let a=2, b=4
+
+			//variable declaration; assignment of values
+			document.getElementById("p1").innerHTML = a + b;
+			document.getElementById("p2").innerHTML = b - a;
+			document.getElementById("p3").innerHTML = b * a;
+			document.getElementById("p4").innerHTML = b / a;
+			document.getElementById("p5").innerHTML = b % a;
+
+		</script>
+	</div>
+</body>
+</html>
